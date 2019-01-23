@@ -25,6 +25,13 @@
     - absent
     - directory
 
+- name: Removing default page
+  file:
+    path: "{{ item }}"
+    state: absent
+  with_items:
+      - /var/www/html/index.html
+
 - name: Enable reverse proxy site
   command: a2ensite omtd-vhosts
   notify: restart apache2

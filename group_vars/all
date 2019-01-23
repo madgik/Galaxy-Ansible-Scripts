@@ -36,7 +36,7 @@ editor_remote_user_secret: editoromtdsecret
 # Apache2 setup - if False, no reverse proxy will be installed
 # If you already have an apache2 setup on the executor
 # machine, you may prefare to to this manually
-apache2_as_reverse_proxy: False
+apache2_as_reverse_proxy: True
 
 # Set the fqdn of the host, if any. Ansible will try to figure it out otherwise
 # host_fqdn: example.com
@@ -44,4 +44,6 @@ apache2_as_reverse_proxy: False
 #####
 # NFS
 # data_share: /srv/executor/database
+
+
 # tools_share: /srv/executor/tools
