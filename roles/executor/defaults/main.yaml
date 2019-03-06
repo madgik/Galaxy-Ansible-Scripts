@@ -1,6 +1,6 @@
 # Directory to host galaxy galaxy code.
 executor_directory: /srv/executor
-galaxy_prefix: /executor
+galaxy_prefix: /
 galaxy_admin: galaxy-admin@example.org
 
 data_share: '{{executor_directory}}/database'
@@ -18,10 +18,10 @@ files_directory: files
 tmp_directory: tmp
 
 # Galaxy remote repo.
-galaxy_repo: https://github.com/openminted/galaxy
+galaxy_repo: https://github.com/ThanKarab/galaxy
 
 # Version of the repository to check out. A branch, a tag or a commit hash.
-executor_version: dev
+executor_version: release_19.01
 
 # job runner
 local_workers: 4

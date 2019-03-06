@@ -17,7 +17,7 @@ files_directory: files
 tmp_directory: tmp
 
 # Galaxy remote repo.
-galaxy_repo: https://github.com/openminted/galaxy
+galaxy_repo: https://github.com/ThanKarab/galaxy
 
 # Version of the repository to check out. A branch, a tag or a commit hash.
 editor_version: editor

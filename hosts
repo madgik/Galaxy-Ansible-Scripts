@@ -1,5 +1,5 @@
 [galaxy]
-127.0.0.1
+88.197.53.102
 
 [data_nfs_clients]
 # IPs of hosts to access data directory of Executor

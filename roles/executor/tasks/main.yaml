@@ -8,6 +8,7 @@
       - python-virtualenv
       - python-dev
       - python-requests
+      - python-rpy2
       - postgresql
       - postgresql-contrib
       - libpq-dev
