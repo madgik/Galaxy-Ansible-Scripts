@@ -1,4 +1,4 @@
-The omtd-standalone-setup script builds the OpenMinTeD (https://openminted.eu) workflow execution backend for a single host. This script facilitates the local installation and execution of the OpenMinTeD workflow infrastructure stack and on a user's own infrastructure.
+The Galaxy-Ansible-Scripts builds the Galaxy workflow execution backend for a single host. This script facilitates the local installation and execution of the workflow infrastructure stack and on a user's own infrastructure.
 
 This script installs two separate Galaxy deployments (editor and executor) on two separate postgresql databases. It also exports the data and tools directories of the Executor deployment with NFS (the tools directory of the editor is also internally linked to the Executor tools directory). The Galaxy deployments can be accessible through an automatically setup apache2 proxy, although this option is switched off by default.
 
