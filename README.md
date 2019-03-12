@@ -13,8 +13,8 @@ If you have trouble setting up ansible on your system, try virtualenv and run th
 ## Setup ansible
 
 ```code=bash
-$ git clone https://github.com/openminted/omtd-standalone-setup.git
-$ cd omtd-standalone-setup
+$ git clone https://github.com/madgik/Galaxy-Ansible-Scripts.git
+$ cd Galaxy-Ansible-Scripts
 ```
 If you target the local host, there is no need to edit the `hosts` file. If you target a different host for the installation, update `hosts` file to target the IP of this host.
 
