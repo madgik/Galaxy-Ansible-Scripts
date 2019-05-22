@@ -1,9 +1,0 @@
-# /lib/systemd/system/editor.service
-[Unit]
-Description=Galaxy Workflow Editor
-
-[Service]
-User=root
-Type=simple
-Restart=on-failure
-ExecStart={{ editor_directory }}/run.sh

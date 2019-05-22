@@ -15,7 +15,6 @@
   roles:
       - role: executor
       - role: nfs
-      - role: editor
   become: yes
 
 - hosts: galaxy
