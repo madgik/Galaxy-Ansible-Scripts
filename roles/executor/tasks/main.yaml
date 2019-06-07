@@ -62,6 +62,12 @@
     dest: "{{ executor_directory }}/config/job_conf.xml"
     force: yes
 
+- name: Setup exareme_environment.py in exaremeTools
+  template:
+    src: exareme_environment.py
+    dest: "{{ executor_directory }}/tools/exaremeTools/exareme_environment.py"
+    force: yes
+
 - name: Setup systemd
   template:
     src: executor.service.j2

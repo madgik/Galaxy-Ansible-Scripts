@@ -74,7 +74,7 @@ editor_directory: /my/locally/accessible/location/editor
 So, we are ready to fire:
 ```code=bash
 $ ansible-galaxy install -r requirements.yaml
-$ ansible-playbook -i hosts --ask-pass --ask-become-pass site.yaml
+$ ansible-playbook -i hosts -u username --ask-pass --ask-become-pass site.yaml
 ```
 
 If the script completes without errors, you must have a galaxy installation on `/srv/galaxy`. Check `service galaxy status` to see if galaxy runs. You can even run it explicitely with `/srv/galaxy/run.sh`.
