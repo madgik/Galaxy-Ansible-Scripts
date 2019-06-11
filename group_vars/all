@@ -14,7 +14,7 @@ docker_package: docker
 
 #####
 # Executor setup
-executor_port: 8080
+executor_port: 8088
 # executor_directory: /srv/executor
 # executor_version: dev
 # executor_db_name: executor
