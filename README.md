@@ -63,6 +63,13 @@ Galaxy will be reachable through localhost:8080 (executor) and localhost:8081 (e
 apache2_as_reverse_proxy: True
 ```
 
+## Connect with Exareme
+Some tools require a connection with an exareme master node. In order to setup this connection you can change the following values in the group_vars/all:
+```
+exareme_ip: 88.197.53.36
+exareme_port: 9090
+```
+
 ## Run the script
 It is assumed that the scripts run with superuser priviledges. If this is not the case, set add a line in `group_vars/all`:
 
