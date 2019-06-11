@@ -64,9 +64,9 @@ apache2_as_reverse_proxy: True
 ```
 
 ## Connect with Exareme
-Some tools require a connection with an exareme master node. In order to setup this connection you can change the following values in the group_vars/all:
+Some tools require a connection with an exareme master node. In order to setup this connection you can change the following values in the group_vars/all ( If the node is on localhost you can leave the default) :
 ```
-exareme_ip: 88.197.53.36
+exareme_ip: 127.0.0.1
 exareme_port: 9090
 ```
 

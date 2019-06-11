@@ -49,5 +49,5 @@ apache2_as_reverse_proxy: True
 # tools_share: /srv/executor/tools
 
 # Exareme endpoint variables
-exareme_ip: 88.197.53.36
+exareme_ip: 127.0.0.1
 exareme_port: 9090
