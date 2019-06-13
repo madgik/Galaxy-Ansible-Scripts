@@ -85,3 +85,21 @@ $ ansible-playbook -i hosts -u username --ask-pass --ask-become-pass site.yaml
 ```
 
 If the script completes without errors, you must have a galaxy installation on `/srv/galaxy`. Check `service galaxy status` to see if galaxy runs. You can even run it explicitely with `/srv/galaxy/run.sh`.
+
+You can check the logs at:
+`/var/log/syslog`
+
+## Problems that may occur:
+If after the installation you check the status of galaxy and you see the following error:
+```
+Browserslist: caniuse-lite is outdated. Please run next command `yarn upgrade caniuse-lite browserslist`
+```
+Execute the commands:
+```
+curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+apt-get install -y nodejs
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+sudo apt-get update && sudo apt-get install yarn
+```
+
