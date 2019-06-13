@@ -21,7 +21,7 @@ tmp_directory: tmp
 galaxy_repo: https://github.com/madgik/galaxy
 
 # Version of the repository to check out. A branch, a tag or a commit hash.
-executor_version: release_19.01
+executor_version: master
 
 # job runner
 local_workers: 4
